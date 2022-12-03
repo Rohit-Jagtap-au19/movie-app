@@ -1,0 +1,25 @@
+.movielist {
+    flex: 5;
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #2b3067;
+        padding: 1rem;
+        height: 70px;
+
+        .movie-count {
+            color: orange;
+            font-weight: 800;
+            font-size: 20px;
+        }
+
+        .sort {
+            span {
+                color: white;
+                padding-right: 5px;
+            }
+        }
+    }
+}

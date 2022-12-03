@@ -1,0 +1,29 @@
+.home{
+    flex:11;
+    background: hsl(240, 16%, 68%);
+    height: 100%;
+    .search{
+        position: relative;
+        height: 80px;
+        display: flex;
+        input{
+            height: 100%;
+            width: 100%;
+            border: 1px solid navy;
+            font-size: 30px;
+            outline: none;
+            padding-left: 100px;
+            color: white;
+            background-color: #161b4f;
+        }
+        .icon{
+            font-size: 50px;
+            color: #7945458d;
+            position:absolute;
+            margin: 1rem;
+        }
+    }
+    .movie-container{
+        display: flex;
+    }
+}

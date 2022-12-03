@@ -1,0 +1,26 @@
+.sidebar{
+    flex: 1;
+    background-color: #2b3067;
+    height: 100%;
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+
+    h1{
+        margin-bottom: 50px;
+        margin-top: 20px;
+    }
+
+    ul{
+        li{
+            padding: 10px;
+            font-size: 35px;
+            &:hover{
+                cursor: pointer;
+                background-color: rgba(255, 0, 0, 0.545);
+                color: white;
+            }
+            
+        }
+    }
+}

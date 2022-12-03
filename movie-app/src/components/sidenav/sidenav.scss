@@ -1,0 +1,27 @@
+.sidenav{
+    flex: 1;
+    background-color: #080b26;
+    height: 90vh;
+    color: #1b2261;
+    font-size: 32px;
+    padding: 1rem;
+    h4{
+        color: white;
+        border-bottom: #1b2261 1px solid;
+        padding-bottom: 10px;
+        text-transform: uppercase;
+    }
+    ul{
+        height: 100%;
+        li{
+            list-style: none;
+            margin: 1rem;
+            font-size: 28px;
+            &:hover{
+                color: skyblue;
+                cursor: pointer;
+            }
+        }
+
+    }
+}
